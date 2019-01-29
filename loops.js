@@ -10,12 +10,12 @@ function forLoop(array) {
 }
 //console.log(forLoop(arrayReal))
 
-const n
+const number = 5
 function whileLoop(n) {
   while(n > 0) {
     console.log(number--)
   }
-  if(n === 0) {
+  if(number === 0) {
     return('done')
   }
 }
