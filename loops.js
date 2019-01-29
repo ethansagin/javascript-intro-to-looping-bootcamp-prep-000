@@ -30,7 +30,8 @@ function incrementVariable() {
 
 function doWhileLoop(array) {
   do{
-    array.pop()
+    array.pop();
+    return array
 } while (
   array.length > 0)
 }
