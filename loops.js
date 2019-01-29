@@ -22,6 +22,7 @@ function whileLoop(n) {
 
 //whileLoop(number)
 let arrayTwo = [1, 2, 3, 4, 5]
+let i = 5
 
 function incrementVariable() {
   i = i - 1;
@@ -29,5 +30,7 @@ function incrementVariable() {
 
 function doWhileLoop(array) {
   do {array.pop();
-} while(array.length < 0 || incrementVariable())
+} while(array.length > 0 || incrementVariable())
 }
+
+doWhileLoop(arrayTwo)
