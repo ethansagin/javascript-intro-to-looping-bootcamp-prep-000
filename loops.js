@@ -20,4 +20,8 @@ function whileLoop(n) {
   }
 }
 
-whileLoop(number);
+//whileLoop(number);
+
+function doWhileLoop(array) {
+  
+}
