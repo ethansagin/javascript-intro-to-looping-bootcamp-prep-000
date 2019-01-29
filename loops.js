@@ -21,13 +21,18 @@ function whileLoop(n) {
 }
 
 //whileLoop(number)
+let arrayTwo = [1, 2, 3, 4, 5]
 var i = 0;
- 
+
 function incrementVariable() {
   i = i - 1;
 }
 
-
+function doWhileLoop(array) {
+  do{array.pop()
+} while (
+  array.length > 0)
+}
 
 
 console.log(doWhileLoop(arrayTwo))
