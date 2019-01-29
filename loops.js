@@ -21,18 +21,7 @@ function whileLoop(n) {
 }
 
 //whileLoop(number)
-let arrayTwo = [1, 2, 3, 4, 5]
-let i = 5
 
-function incrementVariable() {
-  i = i - 1;
-}
 
-function doWhileLoop(array) {
-  do {array.pop();
-  incrementVariable()
-  return array
-} while(array.length > 0 || incrementVariable())
-}
 
 console.log(doWhileLoop(arrayTwo))
