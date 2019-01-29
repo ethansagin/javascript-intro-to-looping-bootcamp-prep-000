@@ -20,8 +20,15 @@ function whileLoop(n) {
   }
 }
 
-//whileLoop(number);
+//whileLoop(number)
+let arrayTwo = [1, 2, 3, 4, 5]
+
+function incrementVariable() {
+  i = i - 1;
+}
 
 function doWhileLoop(array) {
-  
+  do {array.pop();
+  incrementVariable();
+} while(array.length < 0 && incrementVariable())
 }
