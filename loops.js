@@ -12,6 +12,11 @@ console.log(forLoop(arrayReal))
 
 function whileLoop(n) {
   while(n > 0) {
-    return(number--)
+    console.log(number--)
+  }
+  if(n === 0) {
+    return('done')
   }
 }
+
+whileLoop(5);
