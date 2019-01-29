@@ -22,7 +22,7 @@ function whileLoop(n) {
 
 //whileLoop(number)
 let arrayTwo = [1, 2, 3, 4, 5]
-var i = arrayTwo.length;
+var i = arrayTwo.length();
 
 function incrementVariable() {
   i = i - 1;
