@@ -33,4 +33,4 @@ function doWhileLoop(array) {
 } while(array.length > 0 || incrementVariable())
 }
 
-doWhileLoop(arrayTwo)
+console.log(doWhileLoop(arrayTwo))
