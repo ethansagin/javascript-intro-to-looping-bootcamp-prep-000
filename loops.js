@@ -13,11 +13,11 @@ function forLoop(array) {
 const number = 5
 function whileLoop(n) {
   while(n > 0) {
-    console.log(number--)
+    console.log(n--)
   }
-  if(number === 0) {
+  if(n === 0) {
     return('done')
   }
 }
 
-whileLoop(5);
+whileLoop(number);
