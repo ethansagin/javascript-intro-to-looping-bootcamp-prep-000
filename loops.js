@@ -36,5 +36,4 @@ function doWhileLoop(array) {
   array.length > 0)
 }
 
-console.log(incrementVariable())
 console.log(doWhileLoop(arrayTwo))
