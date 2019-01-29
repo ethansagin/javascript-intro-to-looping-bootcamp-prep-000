@@ -37,4 +37,4 @@ function doWhileLoop(array) {
 }
 
 
-console.log(doWhileLoop)
+console.log(doWhileLoop(arrayTwo))
