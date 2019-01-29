@@ -8,8 +8,9 @@ function forLoop(array) {
   }}
   return array
 }
-console.log(forLoop(arrayReal))
+//console.log(forLoop(arrayReal))
 
+const n
 function whileLoop(n) {
   while(n > 0) {
     console.log(number--)
